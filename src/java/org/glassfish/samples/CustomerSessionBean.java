@@ -16,6 +16,7 @@ import org.glassfish.samples.entities.Customer;
  * @author praveen
  */
 @Stateless
+@javax.inject.Named
 public class CustomerSessionBean {
 
     @PersistenceContext
